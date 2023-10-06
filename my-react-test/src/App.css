@@ -1,20 +1,52 @@
 
-.navbarpink {
+.navbarpink  {
+  
 min-height: 10vh;
 font-size: calc(5px + 5vmin);
 background-color: pink;
 display: flex;
 justify-content: space-around;
 }
-.Button {
-  color: bisque;
-
+.style {
+  background-color: rgb(191, 163, 163); /* Green */
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
   transition-duration: 0.4s;
+  cursor: grab;
   
 }
 
-.Button:hover {
-  background-color: rgb(157, 74, 74); /* Green */
-  color: rgb(190, 129, 129);
+.style:hover {
+  background-color: rgb(164, 107, 117); /* pink */
+  color: rgb(253, 251, 251);
+  cursor: grab;
 }
 
+.bakery{
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 65px;
+  color: palevioletred;
+  flex: display;
+  text-align: center;
+}
+
+.cakes{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bakery2{
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: palevioletred;
+  flex: display;
+  text-align: center;
+}
