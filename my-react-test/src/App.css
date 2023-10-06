@@ -1,0 +1,20 @@
+
+.navbarpink {
+min-height: 10vh;
+font-size: calc(5px + 5vmin);
+background-color: pink;
+display: flex;
+justify-content: space-around;
+}
+.Button {
+  color: bisque;
+
+  transition-duration: 0.4s;
+  
+}
+
+.Button:hover {
+  background-color: rgb(157, 74, 74); /* Green */
+  color: rgb(190, 129, 129);
+}
+
