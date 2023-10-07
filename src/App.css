@@ -1,26 +1,29 @@
 
 .navbarpink  {
-  
+  display: flex;
+    align-items: left;
+    justify-content: space-around;
+    height: 90px;
+    padding: 10px;
 min-height: 10vh;
 font-size: calc(5px + 5vmin);
 background-color: pink;
-display: flex;
-justify-content: space-around;
 }
 .style {
+  
   background-color: rgb(191, 163, 163); /* Green */
   border-radius: 12px;
   border: none;
-  color: white;
   padding: 10px 35px;
-  text-align: center;
+  text-align: justify;
   text-decoration: none;
-  display: inline-block;
   font-size: 25px;
   transition-duration: 0.4s;
   cursor: grab;
   
 }
+
+
 
 .style:hover {
   background-color: rgb(164, 107, 117); /* pink */

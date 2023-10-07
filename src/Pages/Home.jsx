@@ -1,14 +1,12 @@
 import Navbarpink from "../components/Navbarpink";
 import Homepagecontent from "../components/Homepagecontent";
 
-export default function Home(){
-    return(
+export default function Home() {
+    return (
         <div>
+            <Navbarpink />
+            <Homepagecontent />
 
-<h3>Home page</h3>
-<Navbarpink/>
-<Homepagecontent/>
-
-</div>
+        </div>
     );
 }
