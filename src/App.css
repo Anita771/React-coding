@@ -1,48 +1,69 @@
 
-.navbarpink  {
-  
-min-height: 10vh;
-font-size: calc(5px + 5vmin);
-background-color: pink;
-display: flex;
-justify-content: space-around;
-}
+
+.navbarpink {
+  display: flex;
+  justify-content: flex-end;
+  height: 90px;
+  padding: 10px;
+  min-height: 10vh;
+  font-size: calc(5px + 5vmin);
+  background-color: pink;
+  }
+
+  /* Added space between button by adding margin-right to 1 rem*/
+  .navbarpink button {
+    margin-right: 1rem;
+  }
+
 .style {
-  background-color: rgb(191, 163, 163); /* Green */
-  border-radius: 12px;
+  background-color: rgb(191, 163, 163);
+  /* Green */
+  border-radius: 10px;
   border: none;
-  color: white;
-  padding: 10px 35px;
-  text-align: center;
+  padding: 10px 10px;
+  text-align: justify;
   text-decoration: none;
-  display: inline-block;
   font-size: 25px;
   transition-duration: 0.4s;
   cursor: grab;
-  
+
 }
 
+
+
 .style:hover {
-  background-color: rgb(164, 107, 117); /* pink */
+  background-color: rgb(164, 107, 117);
+  /* pink */
   color: rgb(253, 251, 251);
   cursor: grab;
 }
 
-.bakery{
+.bakery {
   font-style: oblique;
   font-family: cursive;
   font-size: 65px;
   color: palevioletred;
   flex: display;
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* To bring the Carousel image and text in the center of the page*/
+.cakes {
+  flex: display;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.cakes{
-  display: flex;
-  justify-content: space-around;
+.kakku{
+  flex: display;
+  align-items: center;
+  margin-left: 5rem;
+
 }
 
-.bakery2{
+.bakery2 {
   font-style: oblique;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 40px;

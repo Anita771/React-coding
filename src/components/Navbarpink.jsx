@@ -1,12 +1,28 @@
+import { Link } from "react-router-dom";
+const style = {
+    textDecoration: "none",
+    color: "white"
+}
+    
+
 export default function Navbarpink() {
+
+    
     return (
-        <div className="navbarpink">
-        
-                <button className="style">Home</button>
-                <button className="style">About US</button>
-                <button className="style">Contact</button>
-                <button className="style">Services</button>
+        <div>
             
+        
+            
+        
+        <div className="navbarpink">
+                
+                <button className="style"><Link to="/" style={style}>Home</Link></button>
+                <button className="style"><Link to="/About" style={style}>About Us</Link></button>
+                <button className="style"><Link to="/Contact" style={style}>Contact Us</Link></button>
+                <button className="style"><Link to="/services" style={style}>Services</Link></button>
+                
+            
+        </div>
         </div>
 
     );
