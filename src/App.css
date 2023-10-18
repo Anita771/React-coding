@@ -1,16 +1,23 @@
 
-.navbarpink  {
+
+.navbarpink {
   display: flex;
-    justify-content: flex-end;
-    height: 90px;
-    padding: 10px;
-min-height: 10vh;
-font-size: calc(5px + 5vmin);
-background-color: pink;
-}
+  justify-content: flex-end;
+  height: 90px;
+  padding: 10px;
+  min-height: 10vh;
+  font-size: calc(5px + 5vmin);
+  background-color: pink;
+  }
+
+  /* Added space between button by adding margin-right to 1 rem*/
+  .navbarpink button {
+    margin-right: 1rem;
+  }
+
 .style {
-  
-  background-color: rgb(191, 163, 163); /* Green */
+  background-color: rgb(191, 163, 163);
+  /* Green */
   border-radius: 10px;
   border: none;
   padding: 10px 10px;
@@ -19,18 +26,19 @@ background-color: pink;
   font-size: 25px;
   transition-duration: 0.4s;
   cursor: grab;
-  
+
 }
 
 
 
 .style:hover {
-  background-color: rgb(164, 107, 117); /* pink */
+  background-color: rgb(164, 107, 117);
+  /* pink */
   color: rgb(253, 251, 251);
   cursor: grab;
 }
 
-.bakery{
+.bakery {
   font-style: oblique;
   font-family: cursive;
   font-size: 65px;
@@ -39,12 +47,12 @@ background-color: pink;
   text-align: center;
 }
 
-.cakes{
+.cakes {
   display: flex;
   justify-content: space-around;
 }
 
-.bakery2{
+.bakery2 {
   font-style: oblique;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 40px;
