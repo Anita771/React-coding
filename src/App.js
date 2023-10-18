@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Services from './Pages/Services';
 import Nopage from './Pages/Nopage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

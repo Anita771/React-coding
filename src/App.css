@@ -46,11 +46,12 @@
   flex: display;
   text-align: center;
 }
-
+/* To bring the Carousel image and text in the center of the page*/
 .cakes {
-  display: flex;
-  justify-content: space-around;
+  flex: display;
+  text-align: center;
 }
+
 
 .bakery2 {
   font-style: oblique;
