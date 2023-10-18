@@ -9,6 +9,11 @@ export default function Navbarpink() {
 
     
     return (
+        <div>
+            
+        
+            
+        
         <div className="navbarpink">
                 
                 <button className="style"><Link to="/" style={style}>Home</Link></button>
@@ -17,6 +22,7 @@ export default function Navbarpink() {
                 <button className="style"><Link to="/services" style={style}>Services</Link></button>
                 
             
+        </div>
         </div>
 
     );

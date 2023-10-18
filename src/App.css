@@ -45,13 +45,23 @@
   color: palevioletred;
   flex: display;
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 /* To bring the Carousel image and text in the center of the page*/
 .cakes {
   flex: display;
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
+.kakku{
+  flex: display;
+  align-items: center;
+  margin-left: 5rem;
+
+}
 
 .bakery2 {
   font-style: oblique;
