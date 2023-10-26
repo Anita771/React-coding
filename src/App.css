@@ -56,12 +56,14 @@
   margin-bottom: 1rem;
 }
 
-.kakku{
+.cards{
   flex: display;
-  align-items: center;
-  margin-left: 5rem;
-
+  flex-wrap: nowrap 
+  
+  
 }
+
+
 
 .bakery2 {
   font-style: oblique;
