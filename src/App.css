@@ -29,6 +29,33 @@
 
 }
 
+.stylelogo {
+  
+  /* Green */
+  border-radius: 40px;
+  border: none;
+  padding: 10px 10px;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: grab;
+
+}
+.colorbutton{
+  background-color: rgb(191, 163, 163);
+  /* Green */
+  border-radius: 10px;
+  border: none;
+  padding: 10px 10px;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: grab;
+
+}
+
 
 
 .style:hover {
@@ -57,12 +84,17 @@
 }
 
 .cards{
-  flex: display;
-  flex-wrap: nowrap 
-  
-  
-}
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
 
+}
+/*cakes card*/
+.kakku{
+  display: flex;
+  justify-content: space-around;
+}
 
 
 .bakery2 {
