@@ -1,10 +1,13 @@
 import Navbarpink from "../components/Navbarpink";
+import Cakecards from "../components/Cakecards";
 
-export default function Services(){
-    return(
+export default function Services() {
+    return (
         <div>
-<Navbarpink/>
-<h3>Services P</h3>
-</div>
+            <Navbarpink />
+            <div>
+                <Cakecards />
+            </div>
+        </div>
     );
 }

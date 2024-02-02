@@ -1,5 +1,5 @@
 import Navbarpink from "../components/Navbarpink";
-import Cakecards from "../components/Cakecards";
+import Infoinput from "../components/Infoinput";
 
 
 export default function Contact() {
@@ -9,7 +9,7 @@ export default function Contact() {
             <Navbarpink />
         </div>
         <div>
-            <Cakecards/>
+            <Infoinput/>
         </div>
         </div>
     );
