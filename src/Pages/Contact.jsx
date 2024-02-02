@@ -1,16 +1,16 @@
 import Navbarpink from "../components/Navbarpink";
+import Infoinput from "../components/Infoinput";
 
-export default function Contact(){
-    return(
+
+export default function Contact() {
+    return (
         <div>
-<Navbarpink/>
-<h3>Contact Page</h3>
-<div className="kakku">
-                <img src="./images/cake2.jpg" alt="" width="500" height="400" />
-                <img src="./images/cake.jpg" alt="" width="500" height="400" />
-                <img src="./images/cake3.jpg" alt="" width="500" height="400" />
-
-    </div>
-</div>
+        <div>
+            <Navbarpink />
+        </div>
+        <div>
+            <Infoinput/>
+        </div>
+        </div>
     );
 }

@@ -16,7 +16,7 @@
   }
 
 .style {
-  background-color: rgb(191, 163, 163);
+  background-color: #A46B75;
   /* Green */
   border-radius: 10px;
   border: none;
@@ -29,10 +29,35 @@
 
 }
 
+.stylelogo {
+  
+  /* Green */
+  border-radius: 40px;
+  border: none;
+  padding: 10px 10px;
+  text-align: justify;
+  text-decoration: none;
+  cursor: grab;
+
+}
+.colorbutton{
+  background-color: #A46B75;
+  /* Green */
+  border-radius: 10px;
+  border: none;
+  padding: 10px 10px;
+  text-align: justify;
+  text-decoration: none;
+  
+  transition-duration: 0.4s;
+  cursor: grab;
+
+}
+
 
 
 .style:hover {
-  background-color: rgb(164, 107, 117);
+  background-color: pink;
   /* pink */
   color: rgb(253, 251, 251);
   cursor: grab;
@@ -56,12 +81,19 @@
   margin-bottom: 1rem;
 }
 
-.kakku{
-  flex: display;
-  align-items: center;
+.cards{
+  margin-top: 5rem;
   margin-left: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
 
 }
+/*cakes card*/
+.kakku{
+  display: flex;
+  justify-content: space-around;
+}
+
 
 .bakery2 {
   font-style: oblique;
@@ -70,4 +102,55 @@
   color: palevioletred;
   flex: display;
   text-align: center;
+}
+
+.about {
+  padding-left:400px;
+  padding-right:400px;
+  text-align: center;
+  text-justify: inter-word;
+  font-size: larger;
+  font-family: cursive;
+  color: rgb(230, 134, 150)
+}
+.aboutheading{
+  padding: 40px;
+  text-align: center;
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: 800;
+  color: #A46B75;
+}
+
+.form{
+  padding-left:70px;
+  padding-right: 70px;
+  
+}
+/* contact page CSS stlying */
+.formstyle{
+  background-color: #A46B75;
+  /* Green */
+  border-radius: 10px;
+  border: none;
+  padding: 10px 10px;
+  margin-top: 15px;
+  text-align: justify;
+  text-decoration: none;
+  align-content: center;
+  font-size: 18px;
+  color: rgb(253, 251, 251);
+  cursor: grab;
+
+}
+/*contact info phone details css styling*/
+
+.bakery3 {
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  color: palevioletred;
+  flex: display;
+  text-align: center;
+  padding-bottom: 50px;
 }
