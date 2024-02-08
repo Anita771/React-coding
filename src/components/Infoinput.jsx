@@ -2,7 +2,13 @@ import Form from 'react-bootstrap/Form';
 
 
 
+
 export default function Infoinput() {
+    /* Added an event handler to the submit button */
+    const shoot = () => {
+        alert("Thank you! We will get back to you soon!");
+    }
+
     return (
         <div>
 
@@ -16,7 +22,9 @@ export default function Infoinput() {
                     <Form.Label>Inquaries</Form.Label>
                     <Form.Control as="textarea" rows={5} placeholder="Write Here" />
                     <div>
-                        <button className="formstyle">Submit</button>
+
+                        <button className="formstyle" onClick={shoot}>Submit</button>
+
                     </div>
                 </Form.Group>
             </Form></div>
