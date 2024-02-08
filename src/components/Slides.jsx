@@ -28,6 +28,42 @@ export default function Slides() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item interval={1500}>
+        <img className='cakes' src="./images/cake19.jpeg" alt="" width="500" height="400" />
+        <Carousel.Caption>
+          <h3>Party Cakes</h3>
+          <p>
+            We bake to add more taste to your parties.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={1500}>
+        <img className='cakes' src="./images/cake22.jpeg" alt="" width="500" height="400" />
+        <Carousel.Caption>
+          <h3>Party Cakes</h3>
+          <p>
+            We bake to add more taste to your parties.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={1500}>
+        <img className='cakes' src="./images/cake13.jpeg" alt="" width="500" height="400" />
+        <Carousel.Caption>
+          <h3>Party Cakes</h3>
+          <p>
+            We bake to add more taste to your parties.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={1500}>
+        <img className='cakes' src="./images/cake23.jpeg" alt="" width="500" height="400" />
+        <Carousel.Caption>
+          <h3>Party Cakes</h3>
+          <p>
+            We bake to add more taste to your parties.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
         
     );
