@@ -137,10 +137,9 @@
 }
 
 .about {
-  padding-left:400px;
-  padding-right:400px;
+  padding-left:50px;
+  padding-right:50px;
   text-align: center;
-  text-justify: inter-word;
   font-size: larger;
   font-family: cursive;
   color: rgb(230, 134, 150)
