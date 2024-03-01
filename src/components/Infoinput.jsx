@@ -19,7 +19,7 @@ export default function Infoinput() {
                     <Form.Control type="email" placeholder="name@example.com" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Inquaries</Form.Label>
+                    <Form.Label>Inquiries</Form.Label>
                     <Form.Control as="textarea" rows={5} placeholder="Write Here" />
                     <div>
 
