@@ -1,11 +1,16 @@
-import React from 'react'
 
 function Price() {
+
   return (
+    <>
     <div>
-      
-    </div>
-  )
+            <Navbarpink />
+        </div>
+        <div>
+            
+        </div>
+    </>
+  );
 }
 
-export default Price
+export default Price;
