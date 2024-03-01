@@ -28,36 +28,42 @@
       /* styles for landscape orientation */
       }
 
+      .navbarpink1 {
+        background-color: pink;
+       
+        }
 
+
+       
 
 
 
 .navbarpink {
   display: flex;
-  justify-content: flex-end;
-  height: 90px;
+  justify-content: space-around;
+  height: 100px;
   padding: 10px;
-  min-height: 10vh;
+  
   font-size: calc(5px + 5vmin);
   background-color: pink;
   }
 
   /* Added space between button by adding margin-right to 1 rem*/
   .navbarpink button {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
   }
 
 .style {
   background-color: #A46B75;
   /* Green */
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   padding: 10px 10px;
-  text-align: justify;
   text-decoration: none;
   font-size: 18px;
   transition-duration: 0.4s;
   cursor: grab;
+  
 
 }
 
@@ -120,11 +126,11 @@
   margin-right: 5rem;
 
 }
-/*cakes card*/
+/*cakes card
 .kakku{
   display: flex;
   justify-content: space-around;
-}
+}*/
 
 
 .bakery2 {
